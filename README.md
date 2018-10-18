@@ -13,7 +13,8 @@ If any column does not have any configurations that agree with the currently pla
 What makes this program intelligent is that it chooses the rows with the least amount of configurations first (most constrained).
 This minimizes the amount of backtracking that will occur, and can speed up the algorithm exponentially when compared to blindly selecting the order of rows.
 
-To run the program, you must have pygame and numpy installed as packages. Issue the command, "python3 nonogram.py problems/tests/10_10_1.npy".
+To run the program, you must have pygame and numpy installed as packages. Issue the command,
+"python3 nonogram.py problems/tests/10_10_1.npy"
 Note that this program requires large amounts of memory for the bigger puzzles due to the amount of recursion that occurs during my algorithm.
 For most puzzles, this algorithm finds a solution in less than a second of runtime.
 
